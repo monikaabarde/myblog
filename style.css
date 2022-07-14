@@ -29,7 +29,8 @@
 .header img
 {
     width: 70px;
-    float: left;s
+    float: left;
+    padding-top:50px;
 }
 /* .login-btn
 {
@@ -44,7 +45,7 @@
 } */
 .header h1
 {
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 0;
     font-size: 50px;
 
@@ -309,8 +310,13 @@ h1
     {
         font-size: 20px;
     }
-    .container>img{
-        margin-left:50px;
+    .header img{
+        padding-top:0px;
+        marging-left:110px;
+    }
+    .header>h1{
+        padding-top:80px;
+    }    
     
   }
 
